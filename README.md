@@ -1,4 +1,4 @@
-![build](https://github.com/jrmedd/user-time/actions/workflows/main.yml/badge.svg)
+![build](https://github.com/jrmedd/validate-govuk-date/actions/workflows/main.yml/badge.svg)
 
 # Parse GOVUK date
 Takes separate day, month, and year values (a la the [GOV.UK date input pattern](https://design-system.service.gov.uk/components/date-input/)) and checks for errors, returning a [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) if none are found.
