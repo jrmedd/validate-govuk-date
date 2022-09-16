@@ -1,7 +1,7 @@
 {
   "name": "validate-govuk-date",
   "version": "1.0.0",
-  "description": "Zero-dependency function that turns user-input time strings into a formatted time string",
+  "description": "Validate dates entered using the GOVUK date input",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib && mocha",
@@ -12,12 +12,11 @@
     "url": "git+https://github.com/jrmedd/validate-govuk-date.git"
   },
   "keywords": [
-    "time",
-    "input",
-    "user",
-    "fuzzy",
-    "match",
-    "normalize",
+    "govuk",
+    "gds",
+    "validate",
+    "validation",
+    "parts",
     "date",
     "datetime"
   ],
