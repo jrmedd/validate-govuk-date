@@ -2,6 +2,6 @@ Object.defineProperty(exports, '__esModule', {
   value: true
 })
 
-const parseTime = require('./lib/parseTime')
+const validateDate = require('./lib/validateDate')
 
-module.exports = parseTime
+module.exports = validateDate
