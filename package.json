@@ -1,0 +1,37 @@
+{
+  "name": "validate-govuk-date",
+  "version": "1.0.0",
+  "description": "Zero-dependency function that turns user-input time strings into a formatted time string",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib && mocha",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmedd/validate-govuk-date.git"
+  },
+  "keywords": [
+    "time",
+    "input",
+    "user",
+    "fuzzy",
+    "match",
+    "normalize",
+    "date",
+    "datetime"
+  ],
+  "author": "jrmedd",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jrmedd/validate-govuk-date/issues"
+  },
+  "homepage": "https://github.com/jrmedd/validate-govuk-date#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "mocha": "^8.4.0",
+    "standard": "^17.0.0"
+  }
+}
