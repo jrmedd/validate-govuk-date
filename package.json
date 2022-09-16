@@ -1,6 +1,6 @@
 {
   "name": "validate-govuk-date",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validate dates entered using the GOVUK date input",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
+    "babel-preset-minify": "^0.5.2",
     "mocha": "^8.4.0",
     "standard": "^17.0.0"
   }
