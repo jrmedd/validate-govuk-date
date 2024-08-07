@@ -1,8 +1,11 @@
 {
   "name": "validate-govuk-date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validate dates entered using the GOVUK date input",
   "main": "index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "babel src -d lib && mocha",
     "test": "mocha"
